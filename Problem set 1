@@ -1,0 +1,39 @@
+// Problems for Practice of C++
+#include <iostream>
+#include<string>
+using namespace std;
+// Problem No 1
+//Find The Size of All Data Types
+main(){
+	cout<<"The size of char is : "<<sizeof(char)<<endl;
+	cout<<"The size of int is : "<<sizeof(int)<<endl;
+	cout<<"The size of flaot is : "<<sizeof(float)<<endl;
+	cout<<"The size of  string is : "<<sizeof(string)<<endl;
+	cout<<"The size of double is : "<<sizeof(double)<<endl;
+	cout<<"The size of long is : "<<sizeof(long)<<endl;
+	cout<<"The size of short is : "<<sizeof(short)<<endl;
+	cout<<"The size of bool is : "<<sizeof(bool)<<endl;
+		
+}
+
+
+// Problems for Practice of C++
+#include <iostream>
+#include<string>
+using namespace std;
+// Problem no 2
+// Check the Minmum or Maximum limit of All Data types
+main(){
+	cout<<" The limit of upper int is :          " <<INT_MAX<<"  BYTES"<<endl;
+	cout<<" The limit of lower int is :          " <<INT_MIN<<"  BYTES"<<endl;	
+	cout<<" The limit of unsigned int is :          " <<UINT_MAX<<"  BYTES"<<endl;
+	cout<<" The limit of upper long is :          " <<LONG_MAX<<"  BYTES"<<endl;
+	cout<<" The limit of lower long is :          " <<LONG_MIN<<"  BYTES"<<endl;	
+	cout<<" The limit of unsigned long is :          " <<ULONG_MAX<<"  BYTES"<<endl;
+	cout<<" The limit of upper short is :          " <<SHRT_MAX<<"  BYTES"<<endl;
+	cout<<" The limit of lower short is :          " <<SHRT_MIN<<"  BYTES"<<endl;
+	cout<<" The limit of unsigned short is :          " <<USHRT_MAX<<"  BYTES"<<endl;
+	cout<<" The limit of char is :          " <<CHAR_MAX<<"  BYTES"<<endl;
+	//You can also Find other datatype by using this method
+		
+}
