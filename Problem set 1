@@ -33,6 +33,78 @@ main(){
 	cout<<" The limit of upper short is :          " <<SHRT_MAX<<"  BYTES"<<endl;
 	cout<<" The limit of lower short is :          " <<SHRT_MIN<<"  BYTES"<<endl;
 	cout<<" The limit of unsigned short is :          " <<USHRT_MAX<<"  BYTES"<<endl;
+	
+	
+	// Problems for Practice of C++
+#include <iostream>
+#include<string>
+using namespace std;
+// Problem no 3 
+// Check whether the primitive values crossing the limits or not 
+// so we check by self in the code 
+int main() 
+{
+    cout << "\n\n Check whether the primitive values crossing the limits or not :\n";
+	cout << "--------------------------------------------------------------------\n";
+   char gender = 'F';             // char is single-quoted
+   bool isEmployed = true;         // true(non-zero) or false(0)
+   unsigned short numOfsons = 2; // [0, 255]
+   short yearOfAppt = 2009;      // [-32767, 32768]
+   unsigned int YearlyPackage = 1500000;   // [0, 4294967295]
+   double height = 79.48;       // With fractional part
+   float gpa = 4.69f;           // Need suffix 'f' for float
+   long totalDrawan = 12047235L;     // Suffix 'L' for long
+   long long balance = 995324987LL;  // Need suffix 'LL' for long long int  
+
+   cout << " The Gender is : " << gender << endl;
+   cout << " Is she married? : " << isEmployed << endl;
+   cout << " Number of sons she has : " << numOfsons << endl;
+   cout << " Year of her appointment : " << yearOfAppt << endl;
+   cout << " Salary for a year : " << YearlyPackage << endl;
+   cout << " Height is : " << height << endl;
+   cout << " GPA is " << gpa << endl;
+   cout << " Salary drawn upto : " << totalDrawan << endl;
+   cout << " Balance till : " << balance << endl;   
+   return 0;
+}
+
+
+// Problems for Practice of C++
+#include <iostream>
+#include<string>
+using namespace std;
+// Problem no 4
+// Check overflow/underflow during various arithmetical operation :
+// Range of int is [-2147483648, 2147483647]
+main(){
+int upper_range = 	2147483647;
+int lower_range =  -2147483648;
+int check_flow;
+// we do all arthematic operation on it but we do only one for practice
+//
+check_flow = upper_range/lower_range;
+cout<<"The divison gives : "<<check_flow<<endl;
+check_flow = upper_range*lower_range;
+cout<<"The multi give : "<<check_flow<<endl;
+check_flow = upper_range+lower_range; 
+cout<<"The Add gives : "<<check_flow<<endl;
+}
+
+
+// Problems for Practice of C++
+#include <iostream>
+#include<string>
+using namespace std;
+// Problem no 5
+// Display the operation of pre and post increment and decrement :
+main(){
+	int a = 5;
+	cout<<"The post increment by 1 number is :"<<a++<<endl;
+	cout<<"The pre increment by 1 number is :"<<++a<<endl;
+	cout<<"The post decrement by 1 number is :"<<a--<<endl;
+	cout<<"The post decrement by 1 number is :"<<--a<<endl;
+	// it done decrement after the increment so it returns the same value.
+}
 	cout<<" The limit of char is :          " <<CHAR_MAX<<"  BYTES"<<endl;
 	//You can also Find other datatype by using this method
 		
