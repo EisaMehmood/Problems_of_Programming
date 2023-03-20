@@ -203,5 +203,65 @@ main(){
 }
 
 
+// Problems for Practice of C++
+#include <iostream>
+#include <iomanip>
+#include<string>
+using namespace std;
+// Problem no 10
+//Write a C++ program to Convert temperature in Celsius to Fahrenheit
+int main()
+{
+    float frh, cel;
+		cout << "\n\n Convert temperature in Celsius to Fahrenheit :\n";
+		cout << "---------------------------------------------------\n";	
+    cout << " Input the temperature in Celsius : ";
+    cin >> cel;
+    frh = (cel * 9.0) / 5.0 + 32;
+    cout << " The temperature in Celsius    : " << cel << endl;
+    cout << " The temperature in Fahrenheit : " << frh << endl;
+	cout << endl;
+    return 0;
+}
+
+// Problems for Practice of C++
+#include <iostream>
+#include <iomanip>
+#include<string>
+using namespace std;
+// Problem no 11
+//Write a C++ program to input a single-digit number and print it in a rectangular form of 4 columns and 6 rows.
+int main()
+{
+    	int x;
+		cout << "\n\n Make a rectangular shape by a single digit number :\n";
+		cout << "--------------------------------------------------------\n";		
+        cout<<" Input the number : ";
+    	cin>> x;
+        cout<<" "<<x<<x<<x<<x<<endl;
+        cout<<" "<<x<<" "<<" "<<x<<endl;
+        cout<<" "<<x<<" "<<" "<<x<<endl;
+        cout<<" "<<x<<" "<<" "<<x<<endl;
+        cout<<" "<<x<<" "<<" "<<x<<endl;        
+        cout<<" "<<x<<x<<x<<x<<endl;        
+        cout << endl;
+        return 0;
+    }
+
+// Problems for Practice of C++
+#include <iostream>
+#include <iomanip>
+#include <ctime>
+#include<string>
+using namespace std;
+// Problem no 12
+// Write a C++ program to display the current date and time
+ main()
+{
+	time_t t=time (NULL);
+	cout<<ctime(&t);
+  
+    }
+
 
 
