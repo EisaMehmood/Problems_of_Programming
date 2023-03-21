@@ -262,6 +262,51 @@ using namespace std;
 	cout<<ctime(&t);
   
     }
+    
+    
+    
+    
+#include<iostream>
+using namespace std;
+// Problem no 13
+//Write a program in C++ to find the sum of the first 10 natural numbers.
 
+main(){
+	int sum;
+	for(int i = 0 ; i <=10; i++){
+		sum += i;
+	}
+	cout<<sum;
+}
+
+
+
+#include<iostream>
+using namespace std;
+// Problem no 14
+//Write a program in C++ to find the Prime or Not
+main(){
+int a = 0;
+int num ;
+cout << "\n\n Check whether a number is prime or not:\n";
+	cout << "--------------------------------------------\n";
+	cout << "Input a number to check prime or not: ";
+cin>> num;
+
+for (int i=1; i<=num; i ++){
+	if(num%i==0){
+			a++;
+	}
+}
+	if (a==2){
+		cout<<"The number is prime";
+	
+	}else {
+		cout<<"The number is Not Prime";
+	}
+
+
+
+}
 
 
